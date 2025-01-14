@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
 
-const Blog = () => {
+export default function Contact() {
     return <Layout title="Blog">
         <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
             <div className="font-bold">Contact info</div>
@@ -75,6 +75,4 @@ const Blog = () => {
             </div>
         </div>
     </Layout>
-};
-
-export default Blog;
+}
